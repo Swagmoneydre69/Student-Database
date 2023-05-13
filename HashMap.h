@@ -5,93 +5,120 @@
 
 #ifndef HASHMAP_H
 #define HASHMAP_H
+#include <list>
+#include <utility>
 
 // Actual HashMap Class
 template<class K, class V, class HashFunction> class HashMap{
 public:
-	class HashMapNode{
-		private:
-			K key;
-			V value;
-			HashMapNode *next;
-			HashMapNode *prev;
-		public:
-			friend class HashMap;
-			friend class HashMapNode;
-			HashMapNode(const K& k, const V& v) : key(k), value(v), next(nullptr), prev(nullptr){}
-	};
 	class HashMapIterator{
 		public:
+			typedef std::list<std::pair<K,V>>::iterator iterator_t;
 			friend class HashMap;
-			const K& operator*() const{ return *ptr; }
-			HashMapIterator(HashMap *h) : hs(h), ptr(nullptr), index(-1){} 
-			HashMapIterator(const HashMapIterator& i) : hs(i.hs), ptr(i.ptr), index(i.index){}
-			HashMapIterator(HashMap *h, HashMapNode* p, size_t i) : hs(h), ptr(p), index(i){}
+			// CONSTRUCTORS
+			HashMapIterator(const HashMapIterator& i) : hs(i.hs), itr(i.itr), index(i.index){}
+			HashMapIterator(HashMap *h, iterator_t t, size_t i) : hs(h), itr(t), index(i){}
+
+			// OPERATORS
+			const std::pair<K,V>& operator*() const{ return *itr; }
 			friend bool operator==(const HashMapIterator& h1, const HashMapIterator& h2);
-			HashMapIterator& operator++(){
-				// uf we stukk have stuff in this spot in the array
-				if(ptr->next){
-					ptr = ptr->next;
-					return *this;
+			/* Prefix increment */
+			HashMapIterator& operator++(){     
+				if(++itr != hs->_table[index].end()) return *this;
+				do{ 
+					++index; 
+				}while(hs->_table[index].size() == 0 && index < hs->_nBuckets);
+				if(index != hs->_nBuckets){
+					itr = hs->_table[index].begin();
 				}
-				// else need to find next occupied table slot 
-				while(index < hs->_nBuckets && !(hs->_table[index])){
-					++index;
+				else{
+					itr = hs->_table[hs->_nBuckets].end();
 				}
-				if(index == hs->_nBuckets) ptr = nullptr;
 				return *this;
-			}
+			}     
+			/* Postfix increment */
 			HashMapIterator operator++(int){
-				HashMapIterator temp(this);
+				HashMapIterator temp(*this);
 				this->operator++();
 				return temp;
-			}
+			}   
+			/* Prefix decrement */
 			HashMapIterator& operator--(){
-				if(ptr->prev){
-					ptr = ptr->prev;
+				// decrementing end iterator
+				if(itr != hs->_table[index].begin()){
+					--itr;
 					return *this;
 				}
-				// decrementing end iterator: moving to last element in last bucket
-				if(!ptr){
-
-				}
-				// moving to 
-				while(index > 0 && !(hs->_table[index])){
+				do{
 					--index;
+				} while(index >= 0 && hs->_table[index].empty());
+				itr = hs->_table[index].begin();
+				while(itr != hs->_table[index].end()){
+					++itr;
 				}
+				--itr;
 				return *this;
-			}
+			} 
+			/* Postfix decrement */   
 			HashMapIterator operator--(int){
-				HashMapIterator temp(this);
+				HashMapIterator temp(*this);
 				this->operator--();
 				return temp;
-			}
+			}   
 		private:
 			HashMap* hs;
-			HashMapNode* ptr;
+			iterator_t itr;
 			size_t index;
 	};
 
-
+// =========================================================================================
+	// Actual HashMap implementation 
 private:
-	HashMapNode** _table;
+	// REPRESENTATION
+	// dynamically allocated array of lists of pairs
+	std::list<std::pair<K,V>>* _table;
 	// array size
 	size_t _nBuckets;
 	// actual number of elements
 	size_t _size;
 	HashFunction _hash; 
+
+	// PRIVATE MEMBER FUNCTIONS
+	void copy(const HashMap& H);
+	void resize(size_t new_size);
+	size_t hash
 public:
 	// Construction & Assignment
-	HashMap();
-	HashMap(size_t init_size);
-	~HashMap() {this->delete_table();}
-	HashMap(const HashMap& H){this->copy(H);}
+	HashMap() : _table(nullptr), _nBuckets(0), _size(0){}
+	HashMap(size_t init_size) : _nBuckets(init_size), _size(0){
+		_table = new std::list<std::pair<K,V>>[init_size];
+		for(int i = 0; i < init_size; ++i){
+			_table[i] = std::list<std::pair<K,V>>();
+		}
+	}
+	~HashMap() {delete _table;}
+	HashMap(const HashMap& H) : _table(nullptr), _nBuckets(H._nBuckets), _size(H._size){this->copy(H);}
 	HashMap& operator=(const HashMap& H){this->delete_table(); this->copy(H); return *this;}
 
-	// Element access
-	HashMapNode& operator[](const K& key);
-	HashMapIterator find(const K& key);
+	// Element access/insertion/modification
+	std::pair<HashMapIterator, bool> insert(const K& key);
+	bool erase(const K& key);
+	V& operator[](const K& key);
+	HashMapIterator find(const K& key) const;
+	size_t bucket(const K& key) const;
 
-	// Iterator Operations
+	// Iterators
+	HashMapIterator begin() const;
+	HashMapIterator end() const{return HashMapIterator(this,_table[_nBuckets-1].end(),-1);}
 };
+
+// ======================================
+// MEMBER FUNCTION IMPLEMENTATIONS
+// ======================================
+void HashMap::copy(const HashMap& H){
+	_table = new std::list<std::pair<K,V>>[H._nBuckets];
+	for(int i = 0; i < init_size; ++i){
+		_table[i] = std::list<std::pair<K,V>>();
+	}
+}
 #endif
