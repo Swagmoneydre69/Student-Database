@@ -1,0 +1,4 @@
+Andre_Lungu Computer_Science 51 3.89 lungua@rpi.edu
+William_Shi Computer_Science 64 4.0 shiw10@nyu.edu
+William_Kuriyama Economics 4 1.2 kuriyw@ub.edu
+Raymond_Ng Health_Science 32 3.6 ngr20@sbu.edu
