@@ -34,6 +34,7 @@ public:
 	bool insert(const K& key);
 	bool erase(const K& key);
 	void print_table() const;
+	void resize(size_t n);
 
 	// Iterators
 	/*HashMapIterator begin() const;
@@ -49,9 +50,7 @@ private:
 	HashFunction _hash; 
 
 	// PRIVATE MEMBER FUNCTIONS
-	void copy(const HashMap& H);
-	void resize(size_t new_size);
-	
+	void copy(const HashMap& H);	
 };
 
 // ======================================
@@ -105,6 +104,9 @@ bool HashMap<K,V,HashFunction>::insert(const K& key){
 	if(itr == _table[index].end()){
 		_table[index].push_back(std::make_pair(key, V()));
 		++_size;
+		if((float)_size/_nBuckets >= 0.8){
+			resize(_nBuckets*1.5);
+		}
 		return true;
 	}
 	return false;
@@ -119,5 +121,20 @@ void HashMap<K,V,HashFunction>::print_table() const{
 		}
 		std::cout << "\n";
 	}
+}
+
+template<class K, class V, class HashFunction>
+void HashMap<K,V,HashFunction>::resize(size_t n){
+	std::list<std::pair<K,V>>* new_table = new std::list<std::pair<K,V>>[n];
+	for(size_t i = 0; i < _nBuckets; ++i){
+		if(_table[i].empty()) continue;
+		typename std::list<std::pair<K,V>>::iterator itr;
+		for(itr = _table[i].begin(); itr != _table[i].emd(); ++itr){
+			size_t index = _hash(itr->first);
+			new_table[index].push_back(std::make_pair(itr->first, itr->second));
+		}
+	}
+	delete _table;
+	_table = new_table;
 }
 #endif
