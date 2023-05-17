@@ -28,7 +28,7 @@ std::ostream& operator<<(std::ostream& o, const student_info& s){
 }
 
 int main(int argc, char** argv){
-  HashMap<std::string, student_info, String_Hash> data_map(20);
+  HashMap<std::string, student_info, String_Hash> data_map(2);
 	std::ifstream input(argv[1]);
   std::string _name, _major, _email;
   int _credits;
@@ -39,4 +39,7 @@ int main(int argc, char** argv){
     data_map[_name] = s;
   }
   data_map.print_table();
+  std::cout << "Awaiting queries...\n";
+  getchar();
+  input.close();
 }

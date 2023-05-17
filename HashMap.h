@@ -71,11 +71,16 @@ V& HashMap<K,V,HashFunction>::operator[](const K& key){
 	while(itr != _table[index].end() && itr->first != key){
 		++itr;
 	}
-	if(itr == _table[index].end()){
-		_table[index].push_back(std::make_pair(key, V()));
-		++_size;
-		itr = --(_table[index].end());
+	if(itr != _table[index].end()) return itr->second;
+
+	
+	++_size;
+	if((float)_size/_nBuckets >= 0.8){
+		resize(_nBuckets*1.5);
+		index = bucket(key);
 	}
+	_table[index].push_back(std::make_pair(key, V()));
+	itr = --(_table[index].end());
 	return itr->second;
 }
 
@@ -126,15 +131,17 @@ void HashMap<K,V,HashFunction>::print_table() const{
 template<class K, class V, class HashFunction>
 void HashMap<K,V,HashFunction>::resize(size_t n){
 	std::list<std::pair<K,V>>* new_table = new std::list<std::pair<K,V>>[n];
-	for(size_t i = 0; i < _nBuckets; ++i){
+	size_t old_nBuckets = _nBuckets;
+	_nBuckets = n;
+	for(size_t i = 0; i < old_nBuckets; ++i){
 		if(_table[i].empty()) continue;
 		typename std::list<std::pair<K,V>>::iterator itr;
-		for(itr = _table[i].begin(); itr != _table[i].emd(); ++itr){
-			size_t index = _hash(itr->first);
+		for(itr = _table[i].begin(); itr != _table[i].end(); ++itr){
+			size_t index = bucket(itr->first);
 			new_table[index].push_back(std::make_pair(itr->first, itr->second));
 		}
 	}
-	delete _table;
+	delete[] _table;
 	_table = new_table;
 }
 #endif

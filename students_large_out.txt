@@ -1,0 +1,212 @@
+[0]: ( Tasnim_Carver, [ Chemistry, 77, 3.99, carvet@rpi.edu ] ) ( Suzanne_Allen, [ Accounting, 111, 0.75, allens@rpi.edu ] ) 
+[1]: 
+[2]: ( Carys_Shah, [ Business_Administration, 19, 0.43, shahc@rpi.edu ] ) ( Brodie_Davidson, [ Architecture, 124, 3.04, davidb@rpi.edu ] ) 
+[3]: ( Isha_O'Ryan, [ Spanish, 76, 1.9, oryani@rpi.edu ] ) 
+[4]: 
+[5]: ( Ayesha_Duran, [ Chemical_Engineering, 79, 2.22, durana@rpi.edu ] ) 
+[6]: 
+[7]: 
+[8]: ( Mariya_Trujillo, [ Architecture, 123, 1.08, trujim@rpi.edu ] ) 
+[9]: ( Kyan_Rowland, [ Mathematics, 11, 1.06, rowlak@rpi.edu ] ) 
+[10]: 
+[11]: 
+[12]: ( Cordelia_Gutierrez, [ Electrical_Engineering, 44, 3.25, gutiec@rpi.edu ] ) ( Lee_Collins, [ Journalism, 72, 3.08, collil@rpi.edu ] ) 
+[13]: ( Riley_Tanner, [ English, 51, 2.28, tanner@rpi.edu ] ) 
+[14]: ( Valerie_Barron, [ Pharmacy, 20, 1.49, barrov@rpi.edu ] ) 
+[15]: 
+[16]: 
+[17]: 
+[18]: ( Fabian_Kirk, [ Chemical_Engineering, 15, 3.29, kirkf@rpi.edu ] ) 
+[19]: ( Matilda_Warren, [ Journalism, 21, 1.51, warrem@rpi.edu ] ) 
+[20]: 
+[21]: ( Iris_Blackburn, [ Business_Administration, 66, 1.4, blacki@rpi.edu ] ) 
+[22]: 
+[23]: 
+[24]: 
+[25]: ( Tammy_Webb, [ Accounting, 65, 1.96, webbt@rpi.edu ] ) 
+[26]: ( Kayla_Atkinson, [ Marketing, 99, 0.59, atkink@rpi.edu ] ) 
+[27]: ( Willow_Mills, [ Chemical_Engineering, 26, 1.93, millsw@rpi.edu ] ) 
+[28]: 
+[29]: ( Gary_Bullock, [ Communications, 122, 3.95, bullog@rpi.edu ] ) ( Chloe_Flynn, [ Accounting, 35, 0.56, flynnc@rpi.edu ] ) 
+[30]: 
+[31]: 
+[32]: ( Kasey_Parks, [ Mathematics, 121, 2.88, parksk@rpi.edu ] ) 
+[33]: ( Roisin_Bird, [ Art, 78, 1.3, birdr@rpi.edu ] ) ( Riya_Bentley, [ Management, 12, 1.29, bentlr@rpi.edu ] ) 
+[34]: 
+[35]: ( Celia_Copeland, [ Mechanical_Engineering, 17, 2.28, copelc@rpi.edu ] ) ( Zaki_Pitts, [ Education, 108, 1.13, pittsz@rpi.edu ] ) 
+[36]: ( Trey_Barton, [ Environmental_Engineering, 4, 0.87, bartot@rpi.edu ] ) 
+[37]: 
+[38]: 
+[39]: ( Frederic_Lucas, [ Communications, 80, 2.59, lucasf@rpi.edu ] ) 
+[40]: 
+[41]: 
+[42]: ( Edgar_Mcgowan, [ Architecture, 105, 0.25, mcgowe@rpi.edu ] ) 
+[43]: ( Kian_Ferrell, [ Education, 120, 3.29, ferrek@rpi.edu ] ) ( Yasmin_Bowman, [ Business_Administration, 112, 1.46, bowmay@rpi.edu ] ) 
+[44]: 
+[45]: ( Libbie_Mack, [ Game_Design, 20, 3.94, mackl@rpi.edu ] ) 
+[46]: ( Veronica_Valentine, [ Computer_Science, 63, 1.54, valenv@rpi.edu ] ) 
+[47]: ( Lisa_Bryant, [ Criminal_Justice, 10, 2.26, bryanl@rpi.edu ] ) 
+[48]: ( Heather_Doherty, [ Management, 77, 3.7, doherh@rpi.edu ] ) 
+[49]: 
+[50]: 
+[51]: ( Monica_Santos, [ Psychology, 48, 0.84, santom@rpi.edu ] ) ( Laura_Herrera, [ Communications, 7, 2.48, herrel@rpi.edu ] ) 
+[52]: 
+[53]: ( Katelyn_Mayo, [ Mechanical_Engineering, 61, 1.32, mayok@rpi.edu ] ) 
+[54]: ( Ewan_Suarez, [ Game_Design, 0, 3.25, suaree@rpi.edu ] ) 
+[55]: 
+[56]: 
+[57]: 
+[58]: 
+[59]: ( Madeline_Mendez, [ Psychology, 112, 1.2, mendem@rpi.edu ] ) 
+[60]: ( Gideon_Sullivan, [ Management, 43, 3.62, sullig@rpi.edu ] ) 
+[61]: 
+[62]: 
+[63]: ( Wesley_Jefferson, [ Chemistry, 68, 2.94, jeffew@rpi.edu ] ) ( Kaylee_Owens, [ Art, 88, 1.01, owensk@rpi.edu ] ) ( Erika_Holmes, [ Environmental_Engineering, 101, 3.93, holmee@rpi.edu ] ) 
+[64]: 
+[65]: 
+[66]: 
+[67]: 
+[68]: 
+[69]: ( Michelle_Mayer, [ ITWS, 80, 1.21, mayerm@rpi.edu ] ) 
+[70]: 
+[71]: ( Mattie_Cruz, [ Philosophy, 124, 0.92, cruzm@rpi.edu ] ) ( Donald_Quinn, [ Pharmacy, 80, 0.99, quinnd@rpi.edu ] ) ( Yousef_Todd, [ Philosophy, 83, 2.33, toddy@rpi.edu ] ) 
+[72]: 
+[73]: 
+[74]: 
+[75]: 
+[76]: 
+[77]: ( Aran_Harvey, [ Environmental_Engineering, 93, 2.29, harvea@rpi.edu ] ) ( Larissa_Mcgee, [ Electrical_Engineering, 62, 3.87, mcgeel@rpi.edu ] ) 
+[78]: ( Ammar_Glass, [ Pharmacy, 20, 0.69, glassa@rpi.edu ] ) 
+[79]: ( Haroon_Wu, [ Accounting, 9, 2.41, wuh@rpi.edu ] ) 
+[80]: ( Frankie_Welsh, [ Economics, 105, 0.86, welshf@rpi.edu ] ) 
+[81]: 
+[82]: 
+[83]: ( Angelica_Weiss, [ Management, 37, 2.09, weissa@rpi.edu ] ) 
+[84]: ( Howard_Richard, [ Architecture, 13, 1.67, richah@rpi.edu ] ) 
+[85]: ( Kyran_O'Neill, [ Psychology, 32, 3.5, oneilk@rpi.edu ] ) 
+[86]: ( Kathryn_Osborne, [ ITWS, 52, 3.17, osbork@rpi.edu ] ) 
+[87]: ( Jerome_Maxwell, [ Psychology, 42, 0.76, maxwej@rpi.edu ] ) ( Shayla_Cochran, [ Mathematics, 113, 2.14, cochrs@rpi.edu ] ) 
+[88]: ( Willie_Adkins, [ Philosophy, 88, 1.19, adkinw@rpi.edu ] ) ( Nicole_Baird, [ Economics, 112, 1.42, bairdn@rpi.edu ] ) 
+[89]: ( Flynn_Bridges, [ ITWS, 123, 3.78, bridgf@rpi.edu ] ) 
+[90]: 
+[91]: 
+[92]: ( Tillie_Waters, [ Electrical_Engineering, 25, 3.69, watert@rpi.edu ] ) 
+[93]: ( Wilbur_Terry, [ Biology, 60, 0.58, terryw@rpi.edu ] ) ( Sylvia_Andrews, [ Spanish, 83, 3.48, andres@rpi.edu ] ) ( Faizan_Perry, [ Mathematics, 65, 1.29, perryf@rpi.edu ] ) 
+[94]: 
+[95]: 
+[96]: 
+[97]: 
+[98]: 
+[99]: ( Lorenzo_Zamora, [ Behavioral_Neuroscience, 78, 1.43, zamorl@rpi.edu ] ) 
+[100]: ( Cameron_Franklin, [ Psychology, 44, 0.36, frankc@rpi.edu ] ) 
+[101]: ( Aaminah_Wilson, [ Business_Administration, 108, 2.84, wilsoa@rpi.edu ] ) ( Eugene_Dunn, [ Philosophy, 100, 3.75, dunne@rpi.edu ] ) 
+[102]: 
+[103]: ( Esme_Holman, [ Music, 15, 1.5, holmae@rpi.edu ] ) 
+[104]: 
+[105]: ( Alexandros_Salas, [ Nursing, 92, 2.34, salasa@rpi.edu ] ) 
+[106]: ( Halima_Malone, [ Journalism, 44, 1.64, malonh@rpi.edu ] ) 
+[107]: ( Michael_Mcgee, [ Art, 52, 0.91, mcgeem@rpi.edu ] ) 
+[108]: 
+[109]: ( Cecilia_Khan, [ Criminal_Justice, 47, 3.54, khanc@rpi.edu ] ) ( Deborah_Summers, [ Mechanical_Engineering, 105, 2.98, summed@rpi.edu ] ) 
+[110]: ( Xanthe_Solis, [ ITWS, 59, 0.44, solisx@rpi.edu ] ) 
+[111]: ( Aamina_Harmon, [ Game_Design, 126, 1.86, harmoa@rpi.edu ] ) ( Haseeb_Cross, [ Art, 117, 0.29, crossh@rpi.edu ] ) 
+[112]: 
+[113]: 
+[114]: ( Keanu_Santos, [ Communications, 14, 1.79, santok@rpi.edu ] ) 
+[115]: 
+[116]: 
+[117]: 
+[118]: 
+[119]: ( Violet_Wong, [ Environmental_Engineering, 72, 2.24, wongv@rpi.edu ] ) 
+[120]: ( Victoria_Elliott, [ English, 102, 0.97, elliov@rpi.edu ] ) ( Spencer_Benson, [ Psychology, 92, 1.25, bensos@rpi.edu ] ) ( Elaine_Petersen, [ Mechanical_Engineering, 50, 0.02, petere@rpi.edu ] ) 
+[121]: 
+[122]: ( Isra_O'Quinn, [ ITWS, 59, 3.84, oquini@rpi.edu ] ) 
+[123]: ( Niall_Blackwell, [ Architecture, 92, 1.39, blackn@rpi.edu ] ) ( Zubair_Meadows, [ Spanish, 58, 3.36, meadoz@rpi.edu ] ) 
+[124]: 
+[125]: ( Macie_Ho, [ Physics, 52, 1.05, hom@rpi.edu ] ) 
+[126]: ( Hugo_Hayes, [ English, 52, 0.3, hayesh@rpi.edu ] ) ( Darragh_Boyle, [ Music, 98, 3.61, boyled@rpi.edu ] ) 
+[127]: ( Imogen_Goodwin, [ Communications, 41, 0.92, goodwi@rpi.edu ] ) ( Tahlia_Sheppard, [ Physics, 53, 3.28, sheppt@rpi.edu ] ) 
+[128]: 
+[129]: 
+[130]: ( Tariq_Daniels, [ Accounting, 107, 0.97, daniet@rpi.edu ] ) ( Rahul_Caldwell, [ Management, 75, 0.9, caldwr@rpi.edu ] ) 
+[131]: ( Leah_Osborn, [ Mathematics, 4, 1.36, osborl@rpi.edu ] ) 
+[132]: ( Nana_Hahn, [ English, 124, 0.46, hahnn@rpi.edu ] ) 
+[133]: 
+[134]: 
+[135]: ( Rabia_Nicholson, [ Management, 126, 1.45, nichor@rpi.edu ] ) ( Arman_Mccarthy, [ Journalism, 78, 2.49, mccara@rpi.edu ] ) 
+[136]: 
+[137]: ( Anita_Jensen, [ ITWS, 69, 2.18, jensea@rpi.edu ] ) ( Aine_Mckenzie, [ Music, 120, 3.72, mckena@rpi.edu ] ) 
+[138]: 
+[139]: ( Malik_Jacobs, [ Chemical_Engineering, 121, 2.51, jacobm@rpi.edu ] ) ( Mathew_Short, [ Mechanical_Engineering, 102, 2.02, shortm@rpi.edu ] ) 
+[140]: 
+[141]: ( Jacob_Armstrong, [ Art, 0, 1.67, armstj@rpi.edu ] ) 
+[142]: ( Cara_Mendez, [ Physics, 8, 3.67, mendec@rpi.edu ] ) 
+[143]: ( Jennifer_Vincent, [ Communications, 127, 1.93, vincej@rpi.edu ] ) 
+[144]: 
+[145]: ( Eesa_Bailey, [ ITWS, 31, 0.67, bailee@rpi.edu ] ) 
+[146]: ( Hayden_Benson, [ Chemistry, 122, 0.21, bensoh@rpi.edu ] ) 
+[147]: ( Ada_Sparks, [ Spanish, 27, 1.42, sparka@rpi.edu ] ) 
+[148]: 
+[149]: ( Logan_Carpenter, [ Business_Administration, 44, 2.53, carpel@rpi.edu ] ) 
+[150]: ( Elodie_Newman, [ Education, 127, 1.96, newmae@rpi.edu ] ) 
+[151]: 
+[152]: ( Floyd_Middleton, [ Electrical_Engineering, 87, 0.5, middlf@rpi.edu ] ) 
+[153]: 
+[154]: ( Marie_Simpson, [ Business_Administration, 112, 3.79, simpsm@rpi.edu ] ) 
+[155]: 
+[156]: 
+[157]: 
+[158]: ( Oscar_Foster, [ Philosophy, 45, 0.71, fosteo@rpi.edu ] ) 
+[159]: ( Chaya_Meyer, [ Biology, 105, 3.36, meyerc@rpi.edu ] ) 
+[160]: 
+[161]: 
+[162]: ( Roberta_O'Connor, [ Environmental_Science, 41, 3.68, oconnr@rpi.edu ] ) 
+[163]: ( Kylie_Jones, [ Game_Design, 50, 1.04, jonesk@rpi.edu ] ) ( Annabelle_Mcintosh, [ Nursing, 84, 3.98, mcinta@rpi.edu ] ) 
+[164]: ( Stephanie_Vance, [ Management, 73, 0.05, vances@rpi.edu ] ) ( Joseph_Tucker, [ Environmental_Science, 5, 2.75, tuckej@rpi.edu ] ) ( Malachi_Mendoza, [ Art, 40, 3.2, mendom@rpi.edu ] ) 
+[165]: ( Pearl_Saunders, [ Economics, 108, 2.6, saundp@rpi.edu ] ) ( Edmund_Benton, [ Behavioral_Neuroscience, 16, 1.87, bentoe@rpi.edu ] ) 
+[166]: 
+[167]: ( Saskia_Robbins, [ Mechanical_Engineering, 24, 0.36, robbis@rpi.edu ] ) 
+[168]: 
+[169]: 
+[170]: ( Valentina_Camacho, [ Architecture, 94, 2.95, camacv@rpi.edu ] ) 
+[171]: 
+[172]: 
+[173]: 
+[174]: ( Hanna_Deleon, [ Biology, 27, 1.36, deleoh@rpi.edu ] ) 
+[175]: ( Isra_Carr, [ Mathematics, 51, 0.55, carri@rpi.edu ] ) ( Gemma_Wyatt, [ Physics, 92, 3.93, wyattg@rpi.edu ] ) 
+[176]: 
+[177]: 
+[178]: 
+[179]: 
+[180]: ( Kaylum_Pearce, [ Criminal_Justice, 58, 1.21, pearck@rpi.edu ] ) 
+[181]: 
+[182]: ( Bushra_Fuentes, [ Business_Administration, 35, 3.36, fuentb@rpi.edu ] ) 
+[183]: 
+[184]: 
+[185]: 
+[186]: ( Francesco_Holden, [ Criminal_Justice, 123, 1.56, holdef@rpi.edu ] ) 
+[187]: ( Ray_Kane, [ Accounting, 14, 2.73, kaner@rpi.edu ] ) 
+[188]: ( Harriet_Weaver, [ Chemistry, 58, 3.53, weaveh@rpi.edu ] ) 
+[189]: 
+[190]: ( Albie_Padilla, [ English, 43, 3.05, padila@rpi.edu ] ) ( Roxanne_Hubbard, [ Philosophy, 84, 0.13, hubbar@rpi.edu ] ) 
+[191]: ( Jasper_Macdonald, [ Music, 103, 1.24, macdoj@rpi.edu ] ) 
+[192]: ( Ciaran_Zuniga, [ Art, 35, 1.43, zunigc@rpi.edu ] ) ( Elle_Wolf, [ English, 51, 0.91, wolfe@rpi.edu ] ) 
+[193]: ( Sahar_Banks, [ Chemistry, 24, 0.62, bankss@rpi.edu ] ) 
+[194]: 
+[195]: ( Macy_Villa, [ Philosophy, 46, 3.3, villam@rpi.edu ] ) 
+[196]: ( Rosalie_Diaz, [ Economics, 96, 2.59, diazr@rpi.edu ] ) 
+[197]: ( Lacey_Mullins, [ Business_Administration, 66, 2.81, mullil@rpi.edu ] ) 
+[198]: ( Gail_Mclaughlin, [ Business_Administration, 102, 3.08, mclaug@rpi.edu ] ) 
+[199]: 
+[200]: ( Keira_Connolly, [ Environmental_Engineering, 20, 2.11, connok@rpi.edu ] ) 
+[201]: ( Zohaib_Mcintosh, [ Behavioral_Neuroscience, 112, 1.33, mcintz@rpi.edu ] ) 
+[202]: ( Jason_Doyle, [ Game_Design, 78, 1.38, doylej@rpi.edu ] ) 
+[203]: ( Alexia_Shields, [ Electrical_Engineering, 124, 0.5, shiela@rpi.edu ] ) 
+[204]: 
+[205]: ( Russell_Blackburn, [ Environmental_Science, 11, 1.72, blackr@rpi.edu ] ) ( Ava_O'Sullivan, [ Business_Administration, 30, 0.19, osulla@rpi.edu ] ) 
+[206]: ( Markus_Craig, [ Physics, 59, 3.07, craigm@rpi.edu ] ) 
+[207]: ( Jamie_Leach, [ Electrical_Engineering, 55, 2.69, leachj@rpi.edu ] ) 
+[208]: 
+[209]: ( Lila_Lam, [ ITWS, 85, 1.86, laml@rpi.edu ] ) 
+[210]: 
+Awaiting queries...
